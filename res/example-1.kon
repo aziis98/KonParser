@@ -1,0 +1,13 @@
+
+constraint {
+    match { value = "^function$" }
+    child(link = "name") {
+        relative(x = +15px, y = +15px)
+    }
+    child(link = "params") {
+        relative(x = +15px, y = +30px)
+    }
+    test = -3.14
+
+    randomSymbol = TRUE_VERO
+}

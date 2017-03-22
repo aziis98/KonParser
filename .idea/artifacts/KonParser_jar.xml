@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="KonParser:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/KonParser_jar</output-path>
+    <root id="archive" name="KonParser.jar">
+      <element id="module-output" name="KonParser" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../FinalCompiler/out/artifacts/CoreCompiler_jar/CoreCompiler.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
